@@ -1,3 +1,5 @@
+/* Main Content */
+
 html
 {
     font-size: 10px !important;
@@ -161,3 +163,215 @@ a:hover
     }
 }
 
+/* Preloader Animation Goes Here */
+
+/* Portfolio */
+
+.portfolio
+{
+    font-size: 0;
+
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.portfolio .item
+{
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 50%;
+    margin: 0;
+    padding: 0;
+
+    border: 2.5rem solid #fff;
+    background: #111;
+}
+
+.portfolio .item:before
+{
+    display: block;
+
+    padding-top: 70%;
+
+    content: '';
+}
+
+.portfolio .item:last-child
+{
+    margin-bottom: 0;
+}
+
+.portfolio .item .item-cover
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio .item i
+{
+    font-size: 2.5rem;
+    line-height: 6rem;
+
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    right: 0;
+
+    width: 6rem;
+    height: 6rem;
+    padding: 0;
+
+    -webkit-transition: .1s ease;
+         -o-transition: .1s ease;
+            transition: .1s ease;
+    text-align: center;
+
+    opacity: 0;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.portfolio .item:hover i
+{
+    opacity: 1;
+}
+
+.portfolio .item i:after
+{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 0;
+
+    content: '';
+    -webkit-transition: .1s ease;
+         -o-transition: .1s ease;
+            transition: .1s ease;
+
+    border-width: 0 10rem 10rem 0;
+    border-style: solid;
+    border-color: transparent #6e6b6c transparent transparent;
+}
+
+.featherlight .featherlight-content
+{
+    overflow: visible;
+
+    max-height: 94%;
+    padding: 0;
+
+    border-bottom: 0 solid transparent;
+}
+
+.featherlight .featherlight-close-icon
+{
+    font-size: 2.5rem;
+    line-height: 7rem;
+
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+
+    width: 7rem;
+    height: 7rem;
+
+    color: #fff;
+    border-radius: 100%;
+    outline: none !important;
+    background: rgba(255, 255, 255, .4);
+}
+
+.featherlight .featherlight-close-icon:hover
+{
+    background: #6e6b6c;
+}
+
+.featherlight-next,
+.featherlight-previous
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 2rem;
+    line-height: 7rem;
+
+    position: fixed;
+    top: 50%;
+    right: 3rem;
+    bottom: auto;
+    left: auto;
+
+    display: block;
+
+    width: 7rem;
+    height: 7rem;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+
+    color: #fff;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, .4);
+}
+
+.featherlight-next:before
+{
+    font-size: 2rem;
+
+    content: '\f178';
+}
+
+.featherlight-previous:before
+{
+    font-size: 2rem;
+
+    content: '\f177';
+}
+
+.featherlight-next:hover,
+.featherlight-previous:hover
+{
+    background: #6e6b6c;
+}
+
+.featherlight-previous
+{
+    right: auto;
+    left: 3rem;
+}
+
+.featherlight-next span,
+.featherlight-previous span
+{
+    display: none !important;
+}
+
+@media (max-width:1200px)
+{
+    .portfolio .item
+    {
+        position: relative;
+
+        display: inline-block;
+        overflow: hidden;
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        border: 2.5rem solid #fff;
+        background: #111;
+    }
+}
