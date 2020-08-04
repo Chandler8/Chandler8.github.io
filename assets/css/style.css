@@ -375,3 +375,56 @@ a:hover
         background: #111;
     }
 }
+
+/* About Section */
+
+.about
+{
+    margin: 3.5vh 0 0 0;
+    text-align: center;
+}
+
+.about .container-fluid
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about img
+{
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h3
+{
+    line-height: 1.2em;
+    margin-top: -20px;
+}
+
+.about p
+{
+    line-height: 1.7em;
+
+    margin-bottom: 2.4em;
+}
+
+.about .contact
+{
+    font-size: 2.4rem;
+
+    margin-top: 2.8em;
+}
+
+.about .contact span
+{
+    font-size: inherit;
+
+    margin-left: .8em;
+    padding: .5em 1em;
+
+    color: #fff;
+    border-radius: 100px;
+    background: #6e6b6c;
+}
