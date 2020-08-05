@@ -163,7 +163,94 @@ a:hover
     }
 }
 
-/* Preloader Animation Goes Here */
+/* Preloader animations */
+
+.preloader
+{
+    position: fixed;
+    z-index: 100000;
+    bottom: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 1;
+    background: #fff;
+}
+
+.preloader.hide-preloader
+{
+    -webkit-transition: .8s ease .3s;
+         -o-transition: .8s ease .3s;
+            transition: .8s ease .3s;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+.preloader .bounce
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+
+    -webkit-animation: spinner-pulse .6s infinite ease-in-out;
+            animation: spinner-pulse .6s infinite ease-in-out;
+    text-align: center;
+
+    opacity: 1;
+    border-radius: 100%;
+    background-color: #6e6b6c;
+}
+
+.preloader.hide-preloader .bounce
+{
+    -webkit-transition: .3s ease;
+         -o-transition: .3s ease;
+            transition: .3s ease;
+
+    opacity: 0;
+}
+
+@-webkit-keyframes spinner-pulse
+{
+    0%
+    {
+        -webkit-transform: scale(0);
+    }
+    100%
+    {
+        -webkit-transform: scale(1.0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes spinner-pulse
+{
+    0%
+    {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    100%
+    {
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+
+        opacity: 0;
+    }
+}
 
 /* Hero */
 
@@ -286,7 +373,7 @@ a:hover
     left: 0;
 
     width: 100%;
-    margin: 25vh 0 10vh 0;
+    margin: 8vh 0 5vh 0;
     padding: 0 30px;
 
     text-align: center;
@@ -294,8 +381,6 @@ a:hover
 
 .hero .front-content .logo
 {
-    font-weight: bold;
-
     margin: 0 auto 6rem auto;
 }
 
