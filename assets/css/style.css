@@ -165,6 +165,160 @@ a:hover
 
 /* Preloader Animation Goes Here */
 
+/* Hero */
+
+.hero
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+.hero .animation-container
+{
+    -webkit-transition: .5s ease;
+         -o-transition: .5s ease;
+            transition: .5s ease;
+}
+
+.hero .animation-container.animation-fade
+{
+    opacity: 0;
+}
+
+.hero .animation-container.animation-fade.run-animation
+{
+    opacity: 1;
+}
+
+.hero .animation-container.animation-fade-up
+{
+    -webkit-transform: translateY(10vh);
+        -ms-transform: translateY(10vh);
+            transform: translateY(10vh);
+
+    opacity: 0;
+}
+
+.hero .animation-container.animation-fade-up.run-animation
+{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+
+.hero .animation-container.animation-fade-down
+{
+    -webkit-transform: translateY(-10vh);
+        -ms-transform: translateY(-10vh);
+            transform: translateY(-10vh);
+
+    opacity: 0;
+}
+
+.hero .animation-container.animation-fade-down.run-animation
+{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+
+.hero .animation-container.animation-fade-left
+{
+    -webkit-transform: translateX(10vh);
+        -ms-transform: translateX(10vh);
+            transform: translateX(10vh);
+
+    opacity: 0;
+}
+
+.hero .animation-container.animation-fade-left.run-animation
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+
+    opacity: 1;
+}
+
+.hero .animation-container.animation-fade-right
+{
+    -webkit-transform: translateX(-10vh);
+        -ms-transform: translateX(-10vh);
+            transform: translateX(-10vh);
+
+    opacity: 0;
+}
+
+.hero .animation-container.animation-fade-right.run-animation
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+
+    opacity: 1;
+}
+
+
+
+/* Front Content (Hero) */
+
+.hero .front-content
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.hero .front-content
+{
+    position: relative;
+    left: 0;
+
+    width: 100%;
+    margin: 25vh 0 10vh 0;
+    padding: 0 30px;
+
+    text-align: center;
+}
+
+.hero .front-content .logo
+{
+    font-weight: bold;
+
+    margin: 0 auto 6rem auto;
+}
+
+.hero .front-content h1
+{
+    line-height: 1.7em;
+
+    margin: 0;
+}
+
+.hero .front-content h1 span
+{
+    line-height: 1.4em;
+
+    display: inline-block;
+
+    padding: 0 4rem;
+
+    color: #fff;
+    border-radius: 100px;
+    background: #6e6b6c;
+}
+
 /* Portfolio */
 
 .portfolio
