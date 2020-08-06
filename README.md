@@ -5,7 +5,7 @@ This project showcases my responsive portfolio to users. By integrating a smooth
 ## User Story
 
 ```
-AS a recruiter or company
+AS A recruiter or company
 I WANT to see that this Chandler guy has an awesome portfolio
 SO THAT I can hire him 
 
@@ -13,4 +13,12 @@ SO THAT I can hire him
 
 ## Images
 
-![](assets/images/ChanLogo.png)
+![](assets/images/display1.jpg)
+
+![](assets/images/display2.jpg)
+
+![](assets/images/display3.jpg)
+
+![](assets/images/display4.jpg)
+
+![](assets/images/display5.jpg)
