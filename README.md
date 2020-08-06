@@ -13,12 +13,12 @@ SO THAT I can hire him
 
 ## Images
 
-![](assets\images\display1.JPG)
+![](assets/images/display1.JPG)
 
-![](assets\images\display2.JPG)
+![](assets/images/display2.JPG)
 
-![](assets\images\display3.JPG)
+![](assets/images/display3.JPG)
 
-![](assets\images\display4.JPG)
+![](assets/images/display4.JPG)
 
-![](assets\images\display5.JPG)
+![](assets/images/display5.JPG)
